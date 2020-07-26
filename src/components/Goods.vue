@@ -1,7 +1,7 @@
 <template>
   <div class="goods">
     <div class="menu-wrapper" ref="menuWrapper">
-      <ul>
+      <ul style="padding:10px">
         <li v-for="(item, index) in goods"  :key="index" class="menu-item" :class = "{'current':currentIndex===index}" @click="selectMenu(index, $event)">
           <span class="text border-1px">
             <span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
@@ -165,8 +165,9 @@ export default {
     width: 100%
     overflow: hidden
     .menu-wrapper
-      flex: 0 0 80px
-      width: 80px
+      flex: 0 0 10px
+      width: 10px
+      height: 0px
       background: #f3f5f7
       .menu-item
         display: table

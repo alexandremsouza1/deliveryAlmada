@@ -3,9 +3,11 @@
     <div class="shopcart">
       <div class="content">
         <div class="content-left" @click="toggleList">
+          
           <div class="logo-wrapper">
             <div class="logo" :class="{'highlight':totalCount>0}">
-              <span class="icon-shopping_cart" :class="{'highlight':totalCount>0}"></span>
+              <q-icon class="icon-shopping_cart" name="shopping_cart" size="md" />
+             <!-- <span class="icon-shopping_cart" :class="{'highlight':totalCount>0}"></span> -->
             </div>
             <div class="num" v-show="totalCount">{{totalCount}}</div>
           </div>
@@ -265,6 +267,7 @@ export default {
             .icon-shopping_cart
               font-size: 24px
               line-height: 44px
+              padding: 4px
               color: rgba(255,255,255,0.5)
               &.highlight
                 color: #fff
