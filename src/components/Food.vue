@@ -2,6 +2,7 @@
   <transition name="move">
     <div v-show = "showFlag" class="food" ref="food">
       <div class="food-content">
+        <router-view />
         <div class="image-header">
           <img :src="food.image" alt="">
           <div class="back" @click="hide">
@@ -33,10 +34,10 @@
         <split></split>
         <div class="rating">
           <h1 class="title">商品评价</h1>
-          <ratingselect :select-type = "selectType" :only-content = "onlyContent" :desc = "desc" :ratings = "food.ratings" @select="selectRating" @toggle="toggleContent"></ratingselect>
+          <ratingselect :select-type = "selectType" :only-content = "onlyContent" :desc = "desc" :ratings="food.ratings" @select="selectRating" @toggle="toggleContent"></ratingselect>
           <div class="rating-wrapper">
             <ul v-show="food.ratings && food.ratings.length">
-              <li v-show="needShow(rating.rateType, rating.text)" v-for="rating in food.ratings" class="rating-item border-1px">
+              <li v-show="needShow(rating.rateType, rating.text)" v-for="rating in food.ratings" :key="rating.username" class="rating-item border-1px">
                 <div class="user">
                   <span class="name">{{rating.username}}</span>
                   <img class="avatar" :src="rating.avatar" alt="" width="12px" height="12px">

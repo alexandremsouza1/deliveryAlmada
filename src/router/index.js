@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 
 import routes from './routes'
 
-const appData = require('C:/Users/Alexandre/gutin/delivery_do_gutin/data.json')  
+const appData = require('../../data.json')  
 
 Vue.prototype.$seller = appData.seller
 Vue.prototype.$goods = appData.goods

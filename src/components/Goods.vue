@@ -11,10 +11,10 @@
     </div>
     <div class="foods-wrapper" ref="foodsWrapper">
       <ul>
-        <li v-for="item in goods"  :key="item" class="food-list food-list-hook">
+        <li v-for="item in goods"  :key="item.name" class="food-list food-list-hook">
           <h1 class="title">{{item.name}}</h1>
           <ul>
-            <li v-for="food in item.foods"  :key="food" class = "food-item border-1px" @click = "selectFood(food, $event)">
+            <li v-for="food in item.foods"  :key="food.name" class = "food-item border-1px" @click = "selectFood(food, $event)">
               <div class="icon">
                 <img :src="food.icon" alt="" width="57px" height="57px">
               </div>
@@ -51,6 +51,7 @@ import axios from 'axios'
 const ERR_OK = 0
 
 export default {
+  name:"Goods",
   data () {
     return {
       goods: [],
@@ -136,7 +137,6 @@ export default {
     },
     selectFoods () {
       let foods = []
-      debugger
       this.goods.forEach((good) => {
         good.foods.forEach((food) => {
           if (food.count) {
@@ -192,16 +192,16 @@ export default {
           margin-right: 2px
           background-size: 12px 12px
           background-repeat: no-repeat
-          /*&.decrease
-            bg-image('decrease_3')
+          &.decrease
+            bg-image('../assets/decrease_3')
           &.discount
-            bg-image('discount_3')
+            bg-image('../assets/discount_3')
           &.guarantee
-            bg-image('guarantee_3')
+            bg-image('../assets/guarantee_3')
           &.invoice
-            bg-image('invoice_3')
+            bg-image('../assets/invoice_3')
           &.special
-            bg-image('special_3') */
+            bg-image('../assets/special_3') 
         .text
           display: table-cell
           font-size: 12px

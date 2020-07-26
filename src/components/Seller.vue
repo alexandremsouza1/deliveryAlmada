@@ -40,7 +40,7 @@
           <p class="content">{{seller.bulletin}}</p>
         </div>
         <ul v-if="seller.supports" class="supports">
-          <li class="support-item border-1px" v-for="(item,index) in seller.supports">
+          <li class="support-item border-1px" v-for="(item,index) in seller.supports" :key="index">
             <span class="icon" :class="classMap[seller.supports[index].type]"></span>
             <span class="text">{{seller.supports[index].description}}</span>
           </li>
@@ -250,18 +250,16 @@ export default {
           margin-right: 6px
           background-size: 16px 16px
           background-repeat: no-repeat
-          /*
           &.decrease
-            bg-image('decrease_4')
+            bg-image('../assets/decrease_4')
           &.discount
-            bg-image('discount_4')
+            bg-image('../assets/discount_4')
           &.guarantee
-            bg-image('guarantee_4')
+            bg-image('../assets/guarantee_4')
           &.invoice
-            bg-image('invoice_4')
+            bg-image('../assets/invoice_4')
           &.special
-            bg-image('special_4')
-            */
+            bg-image('../assets/special_4')
         .text
           line-height: 16px
           font-size: 12px
