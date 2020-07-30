@@ -1,20 +1,26 @@
 <template>
   <div class="goods">
-    <div class="menu-wrapper" ref="menuWrapper">
-      <ul style="padding:10px">
-        <li v-for="(item, index) in goods"  :key="index" class="menu-item" :class = "{'current':currentIndex===index}" @click="selectMenu(index, $event)">
+    <q-list class="menu-wrapper" ref="menuWrapper">
+    <!--<div class="menu-wrapper" ref="menuWrapper">-->
+      <!--<ul style="padding:10px">-->
+        <q-item v-for="(item, index) in goods"  :key="index" class="menu-item" :class ="{'current':currentIndex===index}" @click="selectMenu(index, $event)">
+          <q-item-section>
           <span class="text border-1px">
             <span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
           </span>
-        </li>
-      </ul>
-    </div>
-    <div class="foods-wrapper" ref="foodsWrapper">
-      <ul>
-        <li v-for="item in goods"  :key="item.name" class="food-list food-list-hook">
+          </q-item-section>
+        </q-item>
+      <!--</ul>-->
+    <!--</div>-->
+    </q-list>
+    <q-list class="foods-wrapper" ref="foodsWrapper">
+    <!--<div class="foods-wrapper" ref="foodsWrapper">-->
+      
+      <!--<ul>-->
+        <q-item v-for="item in goods"  :key="item.name" class="food-list food-list-hook">
           <h1 class="title">{{item.name}}</h1>
           <ul>
-            <li v-for="food in item.foods"  :key="food.name" class = "food-item border-1px" @click = "selectFood(food, $event)">
+            <li v-for="food in item.foods"  :key="food.name" class="food-item border-1px" @click="selectFood(food, $event)">
               <div class="icon">
                 <img :src="food.icon" alt="" width="57px" height="57px">
               </div>
@@ -33,9 +39,8 @@
               </div>
             </li>
           </ul>
-        </li>
-      </ul>
-    </div>
+      </q-item>
+    </q-list>
     <shopcart :select-foods="selectFoods" :delivery-price="this.$seller.deliveryPrice" :min-price="this.$seller.minPrice" ref="shopcart"></shopcart>
     <food :food="selectedFood" ref="food" @add="addFood"></food>
   </div>
@@ -77,10 +82,12 @@ export default {
   },
   methods: {
     _initScroll () {
-      this.menuScroll = new BScroll(this.$refs.menuWrapper, {click: true})
+      let menuWrapper = document.querySelector('.menu-wrapper')
+      this.menuScroll = new BScroll(menuWrapper, {click: true})
       // better-scroll 默认会阻止浏览器的原生 click 事件
       // 当click设置为 true，better-scroll 会派发一个 click 事件，我们会给派发的 event 参数加一个私有属性 _constructed，值为 true
-      this.foodsScroll = new BScroll(this.$refs.foodsWrapper, {probeType: 3, click: true})
+      let foodsWrapper = document.querySelector('.foods-wrapper')
+      this.foodsScroll = new BScroll(foodsWrapper, {probeType: 3, click: true})
       // probeType: 3 表示让插件时时监测滚动的位置并回传
       this.foodsScroll.on('scroll', (pos) => {
         this.scrollY = Math.abs(Math.round(pos.y))
@@ -88,7 +95,7 @@ export default {
     },
     _calculateHeight () {
       // 获取food-wrapper部分每个类别区块内容的高度
-      let foodList = this.$refs.foodsWrapper.getElementsByClassName('food-list-hook')
+      let foodList = document.getElementsByClassName('food-list-hook')
       let height = 0
       this.listHeight.push(height)
       for (let i = 0; i < foodList.length; i++) {
@@ -102,7 +109,7 @@ export default {
         return
         // 插件会阻止点击默认事件，取消后pc端点击会触发两次事件，将非插件派发的return
       }
-      let foodList = this.$refs.foodsWrapper.getElementsByClassName('food-list-hook')
+      let foodList = document.getElementsByClassName('food-list-hook')
       let el = foodList[index]
       this.foodsScroll.scrollToElement(el, 300)
       // 插件提供的接口方法，第一个参数目标元素，第二个参数是时间

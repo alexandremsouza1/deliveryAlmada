@@ -6,7 +6,8 @@
     <span class="block negative" :class="{'active':selectType===1}" @click = "select(1, $event)">{{desc.negative}}<span class="count">{{negatives.length}}</span></span>
   </div>
   <div class="switch" :class = "{'on':onlyContent}" @click="toggleContent($event)">
-    <span class="icon-check_circle"></span>
+    <!--<span class="icon-check_circle"></span>-->
+    <q-icon name="check_circle"/>
     <span class="text">只看有内容的评价</span>
   </div>
   <div></div>

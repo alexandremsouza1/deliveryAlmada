@@ -6,7 +6,8 @@
         <div class="image-header">
           <img :src="food.image" alt="">
           <div class="back" @click="hide">
-            <i class="icon-arrow_lift"></i>
+             <q-icon size="4em" name="chevron_left"/>
+            <!--<i class="icon-arrow_lift"></i>-->
           </div>
         </div>
         <div class="content">
@@ -46,6 +47,7 @@
                   {{rating.rateTime | formatDate}}
                 </div>
                 <p class="text">
+                  <q-icon name="thumb_up"/>
                   <span :class="{'icon-thumb_up':rating.rateType===0, 'icon-thumb_down':rating.rateType===1}"></span>
                   {{rating.text}}
                 </p>

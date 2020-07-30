@@ -29,7 +29,8 @@
           </li>
         </ul>
         <div class="favorite" @click="toggleFavorite">
-          <span class="icon-favorite" :class="{'active':favorite}"></span>
+          <!--<span class="icon-favorite" :class="{'active':favorite}"></span>-->
+          <q-icon name="favorite" />
           <span class="text">{{favoriteText}}</span>
         </div>
       </div>
@@ -114,7 +115,7 @@ export default {
   },
   methods: {
     _initScroll () {
-      if (!this.scroll) {
+      if (!this.scroll) {      
         this.scroll = new BScroll(this.$refs.seller, {
           click: true
         })
