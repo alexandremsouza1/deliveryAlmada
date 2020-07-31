@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div id="q-app">
+     <v-header :seller="seller"></v-header>
     <!--:seller是缩写，用于接收header抛出啦seller-->
-    <v-header :seller="seller"></v-header>
       <q-tabs  class="tab" switch-indicator>
       <q-route-tab
         class="tab-item"
