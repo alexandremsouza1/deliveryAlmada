@@ -28,7 +28,7 @@
       <ratingselect :select-type = "selectType" :only-content = "onlyContent" :ratings="this.ratings" @select="selectRating" @toggle="toggleContent"></ratingselect>
       <div class="rating-wrapper">
         <ul>
-          <li v-show="needShow(rating.rateType, rating.text)" v-for="rating in ratings" class="rating-item" :key="rating.username">
+          <li v-show="needShow(rating.rateType, rating.text)" v-for="(rating,index) in ratings" class="rating-item" :key="index">
             <div class="avatar">
               <img :src="rating.avatar" alt="" width="28" height="28">
             </div>

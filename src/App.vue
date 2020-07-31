@@ -1,44 +1,34 @@
 <template>
-  <div id="q-app">
-    <router-view :seller="seller"></router-view>
+  <div>
     <!--:seller是缩写，用于接收header抛出啦seller-->
     <v-header :seller="seller"></v-header>
-   <q-tabs  switch-indicator>
+      <q-tabs  class="tab" switch-indicator>
       <q-route-tab
-        icon="mail"
+        class="tab-item"
+        icon="menu_book"
         to="/goods"
         exact
       />
       <q-route-tab
-        icon="alarm"
+        class="tab-item"
+        icon="thumbs_up_down"
         to="/ratings"
         exact
       />
        <q-route-tab
-        icon="alarm"
+        class="tab-item"
+        icon="storefront"
         to="/seller"
         exact
       />
     </q-tabs>
-    <!--
-    <div class="tab>
-      <div class="tab-item">
-        <router-link to="/goods">商品</router-link>
-      </div>
-      <div class="tab-item">
-        <router-link to="/ratings">评论</router-link>
-      </div>
-      <div class="tab-item">
-        <router-link to="/seller">商家</router-link>
-      </div>
-    </div>
-    -->
+    <!--路由外链-->
+    <router-view :seller="seller"></router-view>
     <!--<div class="content">
       I am content
     </div>-->
   </div>
 </template>
-
 <script>
   import header from 'src/components/Header.vue';
   const ERR_OK = 0;
@@ -57,7 +47,7 @@
       };
     },
     created () {
-        this.seller = Object.assign({}, this.seller, this.$seller);
+      this.seller = Object.assign({}, this.seller, this.$seller);
     },
     components: {
       'v-header': header
@@ -85,4 +75,8 @@
   .tab .tab-item .active {
       color: rgb(240,20,20);
   }  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 </style>
