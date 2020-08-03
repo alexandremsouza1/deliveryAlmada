@@ -1,8 +1,8 @@
 {
   "name": "delivery_app",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "Um app para delivery",
+  "productName": "Delivery Almada",
   "author": "Alexandre Magno <alexandre.magno@trackerup.com.br>",
   "private": true,
   "scripts": {
