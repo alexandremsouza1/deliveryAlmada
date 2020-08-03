@@ -116,8 +116,8 @@ export default {
         display: inline-block
         vertical-align: top
         img
-          width: 64px
-          height: 64px
+          max-width: 30px
+          max-height: 64px
           border-radius: 2px
       .content
         display: inline-block
