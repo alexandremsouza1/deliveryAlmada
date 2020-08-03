@@ -4,23 +4,23 @@
       <div class="overview">
         <div class="overview-left">
           <h1 class="score">{{this.seller.score}}</h1>
-          <div class="title">综合评分</div>
-          <div class="rank">高于周边商家{{this.seller.rankRate}}%</div>
+          <div class="title">Avaliação geral</div>
+          <div class="rank">Maior do que as empresas vizinhas{{this.seller.rankRate}}%</div>
         </div>
         <div class="overview-right">
           <div class="score-wrapper">
-            <span class="title">服务态度</span>
+            <span class="title">Atitude de serviço</span>
             <star :size="36" :score="this.seller.serviceScore"></star>
             <span class="score">{{this.seller.serviceScore}}</span>
           </div>
           <div class="score-wrapper">
-            <span class="title">商品评分</span>
+            <span class="title">Classificação do produto</span>
             <star :size="36" :score="this.seller.foodScore"></star>
             <span class="score">{{this.seller.foodScore}}</span>
           </div>
           <div class="delivery-wrapper">
-            <span class="title">送达时间</span>
-            <span class="delivery">{{this.seller.deliveryTime}}分钟</span>
+            <span class="title">tempo de entrega</span>
+            <span class="delivery">{{this.seller.deliveryTime}}minuto</span>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ export default {
       display: flex
       padding: 18px 0
       .overview-left
-        flex: 0 0 137px
+        flex: 0 0 90px
         padding: 6px 0
         width: 137px
         border-right: 1px solid rgba(7, 17, 27, 0.1)

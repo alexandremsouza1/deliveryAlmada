@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+import VueTheMask from 'vue-the-mask'
 import routes from './routes'
 
 const appData = require('../../data.json')  
@@ -10,7 +10,7 @@ Vue.prototype.$goods = appData.goods
 Vue.prototype.$ratings = appData.ratings
 
 Vue.use(VueRouter)
-
+Vue.use(VueTheMask)
 /*
  * If not building with SSR mode, you can
  * directly export the Router instantiation;

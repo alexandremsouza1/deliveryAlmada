@@ -9,6 +9,10 @@ const routes = [
       { name:'seller', path: 'seller', component: () => import('components/Seller.vue') }
     ]
   },
+  {
+    path: '/invoice',
+    component: () => import('src/pages/Invoice.vue')
+  },
 
   // Always leave this as last one,
   // but you can also remove it

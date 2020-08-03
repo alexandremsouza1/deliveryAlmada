@@ -8,7 +8,7 @@
   <div class="switch" :class = "{'on':onlyContent}" @click="toggleContent($event)">
     <!--<span class="icon-check_circle"></span>-->
     <q-icon name="check_circle"/>
-    <span class="text">只看有内容的评价</span>
+    <span class="text">Basta olhar para comentários com conteúdo</span>
   </div>
   <div></div>
 </div>
@@ -39,9 +39,9 @@ export default {
       type: Object,
       default () {
         return {
-          all: '全部',
-          positive: '满意',
-          negative: '不满意'
+          all: 'Tudo',
+          positive: 'satisfação',
+          negative: 'Não satisfeito'
         }
       }
     }

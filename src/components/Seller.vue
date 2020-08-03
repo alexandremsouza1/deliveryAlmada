@@ -6,25 +6,25 @@
         <div class="desc border-1px">
           <star :size="36" :score="seller.score"></star>
           <span class="text">({{seller.ratingCount}})</span>
-          <span class="text">月售{{seller.sellCount}}单</span>
+          <span class="text">Venda mensal: {{seller.sellCount}} solteiro</span>
         </div>
         <ul class="remark">
           <li class="block">
-            <h2>起送价</h2>
+            <h2>Preço inicial</h2>
             <div class="content">
-              <span class="stress">{{seller.minPrice}}</span>元
+              <span class="stress">{{seller.minPrice}}</span>
             </div>
           </li>
           <li class="block">
-            <h2>商家配送</h2>
+            <h2>Entrega do comerciante</h2>
             <div class="content">
-              <span class="stress">{{seller.deliveryPrice}}</span>元
+              <span class="stress">{{seller.deliveryPrice}}</span>
             </div>
           </li>
           <li class="block">
-            <h2>平均配送时间</h2>
+            <h2>Prazo médio de entrega</h2>
             <div class="content">
-              <span class="stress">{{seller.deliveryTime}}</span>分钟
+              <span class="stress">{{seller.deliveryTime}}</span> minuto
             </div>
           </li>
         </ul>
@@ -36,7 +36,7 @@
       </div>
       <split></split>
       <div class="bulletin">
-        <h1 class="title">公告与活动</h1>
+        <h1 class="title">Anúncios e eventos</h1>
         <div class="content-wrapper border-1px">
           <p class="content">{{seller.bulletin}}</p>
         </div>
@@ -89,7 +89,7 @@ export default {
   },
   computed: {
     favoriteText () {
-      return this.favorite ? '已收藏' : '收藏'
+      return this.favorite ? 'coletado' : 'Favoritos'
     }
   },
   components: {

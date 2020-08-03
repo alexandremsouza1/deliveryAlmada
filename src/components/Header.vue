@@ -10,7 +10,7 @@
           <span class="name">{{seller.name}}</span>
         </div>
         <div class="description">
-          {{seller.description}}/{{seller.deliveryTime}}分钟送达
+          {{seller.description}}/{{seller.deliveryTime}}Entrega em minutos
         </div>
         <div v-if = "seller.supports" class="support">
           <span class="icon" :class = "classMap[seller.supports[0].type]"></span>
@@ -41,7 +41,7 @@
             </div>
             <div class="title">
               <div class="line"></div>
-              <div class="text">优惠信息</div>
+              <div class="text">informações de desconto</div>
               <div class="line"></div>
             </div>
             <ul v-if="seller.supports" class="supports">
@@ -52,7 +52,7 @@
             </ul>
             <div class="title">
               <div class="line"></div>
-              <div class="text">商家公告</div>
+              <div class="text">Anúncio do comerciante</div>
               <div class="line"></div>
             </div>
             <div class="bulletin">

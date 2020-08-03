@@ -1,7 +1,7 @@
 {
   "seller": {
-    "name": "粥品香坊（回龙观）",
-    "description": "蜂鸟专送",
+    "name": "Mingau Xiangfang (Huilongguan)",
+    "description": "Hummingbird Delivery",
     "deliveryTime": 38,
     "score": 4.2,
     "serviceScore": 4.1,
@@ -11,30 +11,30 @@
     "deliveryPrice": 4,
     "ratingCount": 24,
     "sellCount": 90,
-    "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
+    "bulletin": "A receita secreta para cozinhar mingau no Congee Fragrant é derivada do antigo método chinês de milhares de anos, combinado com técnicas de produção modernas, lideradas pelo mestre de culinária do mundo, Sr. Qu Hao. A adesão à pura consciência natural de qualidade zero agregada ganhou o favor dos consumidores e se tornou uma marca líder de mingau. É o fornecedor de serviços de catering designado para os Jogos Olímpicos de 2008 e para a Garden Expo de 2013.",
     "supports": [
       {
         "type": 0,
-        "description": "在线支付满28减5"
+        "description": "Pagamento online acima de 28 menos 5"
       },
       {
         "type": 1,
-        "description": "VC无限橙果汁全场8折"
+        "description": "20% de desconto VC Unlimited Orange Juice"
       },
       {
         "type": 2,
-        "description": "单人精彩套餐"
+        "description": "Único pacote maravilhoso"
       },
       {
         "type": 3,
-        "description": "该商家支持发票,请下单写好发票抬头"
+        "description": "O comerciante suporta faturas, faça um pedido e escreva o cabeçalho da fatura"
       },
       {
         "type": 4,
-        "description": "已加入“外卖保”计划,食品安全保障"
+        "description": "Adere ao programa `Takeaway Insurance`, garantia de segurança alimentar"
       }
     ],
-    "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",
+    "avatar": "https://image.shutterstock.com/image-vector/sushi-logo-vector-260nw-324828227.jpg",
     "pics": [
       "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
       "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
@@ -42,31 +42,31 @@
       "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
     ],
     "infos": [
-      "该商家支持发票,请下单写好发票抬头",
-      "品类:其他菜系,包子粥店",
-      "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
-      "营业时间:10:00-20:30"
+      "Este comerciante suporta faturas, faça um pedido e escreva o título da fatura",
+       "Categoria: Outras cozinhas, Baozi mingau",
+       "Sala 1340, Unidade 102, Bloco B, Edifício imobiliário Longguan, Huilongguan West Street, Distrito de Changping, Pequim",
+       "Horário comercial: 10: 00-20: 30"
     ]
   },
   "goods": [
     {
-      "name": "热销榜",
+      "name": "Lista quente",
       "type": -1,
       "foods": [
         {
-          "name": "皮蛋瘦肉粥",
+          "name": "Misture com ovo em conserva e carne magra",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Mingau salgado",
           "sellCount": 229,
           "rating": 100,
-          "info": "一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足",
+          "info": "Uma tigela de ovo em conserva e mingau de carne magra é sempre a minha melhor escolha quando vou à loja de mingau. O perfumado e macio, cheio e comovente, a bomba Q dos ovos em conserva e a ternura da carne magra são acompanhadas pelo mingau perfumado, que faz as pessoas se sentirem satisfeitas com essa tigela de mingau.",
           "ratings": [
             {
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "很喜欢的粥",
+              "text": "Mingau muito favorito",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -88,7 +88,7 @@
           "image": "http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "扁豆焖面",
+          "name": "Macarrão refogado com lentilha",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -122,7 +122,7 @@
           "image": "http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "葱花饼",
+          "name": "Panqueca de cebola verde",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -134,14 +134,14 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "没啥味道",
+              "text": "Insípido",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 1,
-              "text": "很一般啊",
+              "text": "Muito medio",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -156,7 +156,7 @@
           "image": "http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "牛肉馅饼",
+          "name": "Torta de carne",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -168,7 +168,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "难吃不推荐",
+              "text": "Não recomendado",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -190,7 +190,7 @@
           "image": "http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "招牌猪肉白菜锅贴/10个",
+          "name": "Autocolantes de Porco Assado e Repolho",
           "price": 17,
           "oldPrice": "",
           "description": "",
@@ -202,7 +202,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "不脆,不好吃",
+              "text": "Não é crocante, não é saboroso",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -224,10 +224,10 @@
           "image": "http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "南瓜粥",
+          "name": "Mingau de abóbora",
           "price": 9,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Mingau doce",
           "sellCount": 91,
           "rating": 100,
           "ratings": [
@@ -257,10 +257,10 @@
           "image": "http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红豆薏米美肤粥",
+          "name": "Mingau de feijão vermelho e cevada",
           "price": 12,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Mingau doce",
           "sellCount": 86,
           "rating": 100,
           "info": "",
@@ -291,7 +291,7 @@
           "image": "http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "八宝酱菜",
+          "name": "Oito picles de tesouro",
           "price": 4,
           "oldPrice": "",
           "description": "",
@@ -325,7 +325,7 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红枣山药糙米粥",
+          "name": "Datas vermelhas, inhame e mingau de arroz integral",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -359,7 +359,7 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "糊塌子",
+          "name": "Pasta de cola",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -395,14 +395,14 @@
       ]
     },
     {
-      "name": "单人精彩套餐",
+      "name": "Único pacote maravilhoso",
       "type": 2,
       "foods": [
         {
-          "name": "红枣山药粥套餐",
+          "name": "Data vermelha e conjunto de mingau de inhame",
           "price": 29,
           "oldPrice": 36,
-          "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+          "description": "Tâmaras vermelhas e mingau de arroz integral de inhame, embalagem de material, alface picada refrescante, kimchi de Sichuan ou picles de oito tesouros, podem ser observados acompanhamentos",
           "sellCount": 17,
           "rating": 100,
           "info": "",
@@ -421,11 +421,11 @@
       ]
     },
     {
-      "name": "冰爽饮品限时特惠",
+      "name": "Ofertas especiais por tempo limitado em bebidas geladas",
       "type": 1,
       "foods": [
         {
-          "name": "VC无限橙果汁",
+          "name": "VC suco de laranja ilimitado",
           "price": 8,
           "oldPrice": 10,
           "description": "",
@@ -454,11 +454,11 @@
       ]
     },
     {
-      "name": "精选热菜",
+      "name": "Pratos quentes selecionados",
       "type": -1,
       "foods": [
         {
-          "name": "娃娃菜炖豆腐",
+          "name": "Tofu de legumes cozidos",
           "price": 17,
           "oldPrice": "",
           "description": "",
@@ -470,7 +470,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "菜量还可以,味道还可以",
+              "text": "A quantidade de pratos está ok, o sabor está ok",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -485,7 +485,7 @@
           "image": "http://fuss10.elemecdn.com/d/2d/b1eb45b305635d9dd04ddf157165fjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "手撕包菜",
+          "name": "Repolho desfiado",
           "price": 16,
           "oldPrice": "",
           "description": "",
@@ -512,7 +512,7 @@
           "image": "http://fuss10.elemecdn.com/9/c6/f3bc84468820121112e79583c24efjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "香酥黄金鱼/3条",
+          "name": "Peixe dourado crocante / 3 peças",
           "price": 11,
           "oldPrice": "",
           "description": "",
@@ -541,11 +541,11 @@
       ]
     },
     {
-      "name": "爽口凉菜",
+      "name": "Refrescante pratos frios",
       "type": -1,
       "foods": [
         {
-          "name": "八宝酱菜",
+          "name": "Oito picles de tesouro",
           "price": 4,
           "oldPrice": "",
           "description": "",
@@ -579,7 +579,7 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "拍黄瓜",
+          "name": "Pat pepino",
           "price": 9,
           "oldPrice": "",
           "description": "",
@@ -615,14 +615,14 @@
       ]
     },
     {
-      "name": "精选套餐",
+      "name": "Pacote em destaque",
       "type": -1,
       "foods": [
         {
-          "name": "红豆薏米粥套餐",
+          "name": "Mingau de feijão vermelho e cevada conjunto refeição",
           "price": 37,
           "oldPrice": "",
-          "description": "红豆薏米粥,三鲜干蒸烧卖,拍黄瓜",
+          "description": "Mingau de feijão vermelho e cevada, três siu mai cozido no vapor fresco seco, pepino",
           "sellCount": 3,
           "rating": 100,
           "info": "",
@@ -639,7 +639,7 @@
           "image": "http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "皮蛋瘦肉粥套餐",
+          "name": "Mingau com ovo em conserva e carne magra",
           "price": 31,
           "oldPrice": "",
           "description": "",
@@ -661,11 +661,11 @@
       ]
     },
     {
-      "name": "果拼果汁",
+      "name": "Suco de fruta",
       "type": -1,
       "foods": [
         {
-          "name": "蜜瓜圣女萝莉杯",
+          "name": "Copo de saint loli de melada",
           "price": 6,
           "oldPrice": "",
           "description": "",
@@ -677,7 +677,7 @@
           "image": "http://fuss10.elemecdn.com/b/5f/b3b04c259d5ec9fa52e1856ee50dajpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "加多宝",
+          "name": "Jia Duo Bao",
           "price": 6,
           "oldPrice": "",
           "description": "",
@@ -711,7 +711,7 @@
           "image": "http://fuss10.elemecdn.com/b/9f/5e6c99c593cf65229225c5661bcdejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "VC无限橙果汁",
+          "name": "VC suco de laranja ilimitado",
           "price": 8,
           "oldPrice": 10,
           "description": "",
@@ -740,11 +740,11 @@
       ]
     },
     {
-      "name": "小吃主食",
+      "name": "Lanches alimentos básicos",
       "type": -1,
       "foods": [
         {
-          "name": "扁豆焖面",
+          "name": "Macarrão refogado com lentilha",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -778,7 +778,7 @@
           "image": "http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "葱花饼",
+          "name": "Panqueca de cebola verde",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -790,14 +790,14 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "没啥味道",
+              "text": "Insípido",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 1,
-              "text": "很一般啊",
+              "text": "Muito medio",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -812,7 +812,7 @@
           "image": "http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "牛肉馅饼",
+          "name": "Torta de carne",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -824,7 +824,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "难吃不推荐",
+              "text": "Não recomendado",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -846,7 +846,7 @@
           "image": "http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "招牌猪肉白菜锅贴/10个",
+          "name": "Autocolantes de Porco Assado e Repolho",
           "price": 17,
           "oldPrice": "",
           "description": "",
@@ -858,7 +858,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "不脆,不好吃",
+              "text": "Não é crocante, não é saboroso",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -880,7 +880,7 @@
           "image": "http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "糊塌子",
+          "name": "Pasta de cola",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -916,14 +916,14 @@
       ]
     },
     {
-      "name": "特色粥品",
+      "name": "Congee Especial",
       "type": -1,
       "foods": [
         {
-          "name": "皮蛋瘦肉粥",
+          "name": "Misture com ovo em conserva e carne magra",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Mingau salgado",
           "sellCount": 229,
           "rating": 100,
           "ratings": [
@@ -931,7 +931,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "很喜欢的粥",
+              "text": "Mingau muito favorito",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -953,10 +953,10 @@
           "image": "http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "南瓜粥",
+          "name": "Mingau de abóbora",
           "price": 9,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Mingau doce",
           "sellCount": 91,
           "rating": 100,
           "info": "",
@@ -987,10 +987,10 @@
           "image": "http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红豆薏米美肤粥",
+          "name": "Mingau de feijão vermelho e cevada",
           "price": 12,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Mingau doce",
           "sellCount": 86,
           "rating": 100,
           "info": "",
@@ -1021,7 +1021,7 @@
           "image": "http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红枣山药糙米粥",
+          "name": "Datas vermelhas, inhame e mingau de arroz integral",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -1055,10 +1055,10 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "鲜蔬菌菇粥",
+          "name": "Mingau de cogumelo de legumes frescos",
           "price": 11,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Mingau salgado",
           "sellCount": 56,
           "rating": 100,
           "info": "",
@@ -1088,10 +1088,10 @@
           "image": "http://fuss10.elemecdn.com/e/a3/5317c68dd618929b6ac05804e429ajpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "田园蔬菜粥",
+          "name": "Mingau de legumes rural",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Mingau salgado",
           "sellCount": 33,
           "rating": 100,
           "info": "",
@@ -1131,14 +1131,14 @@
       "deliveryTime": 30,
       "score": 5,
       "rateType": 0,
-      "text": "不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.",
+      "text": "Sim, o mingau é delicioso, eu como frequentemente esse, é muito bom e comerei com frequência no futuro, é altamente recomendável.",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
-        "南瓜粥",
-        "皮蛋瘦肉粥",
-        "扁豆焖面",
-        "娃娃菜炖豆腐",
-        "牛肉馅饼"
+        "Mingau de abóbora",
+        "Mingau de Ovo Preservado e Carne Suína",
+        "Macarrão refogado com lentilha",
+        "Legumes para bebês cozidos com tofu",
+        "Torta de carne"
       ]
     },
     {
@@ -1147,10 +1147,10 @@
       "score": 4,
       "rateType": 0,
       "deliveryTime": "",
-      "text": "服务态度不错",
+      "text": "Atitude de bom serviço",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
-        "扁豆焖面"
+        "Macarrão refogado com lentilha"
       ]
     },
     {
@@ -1168,7 +1168,7 @@
       "deliveryTime": 20,
       "score": 5,
       "rateType": 0,
-      "text": "良心店铺",
+      "text": "Loja de consciência",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1188,7 +1188,7 @@
       "deliveryTime": 70,
       "score": 1,
       "rateType": 1,
-      "text": "送货速度蜗牛一样",
+      "text": "A velocidade de entrega é igual a um caracol",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1198,7 +1198,7 @@
       "deliveryTime": 30,
       "score": 5,
       "rateType": 0,
-      "text": "很喜欢的粥店",
+      "text": "Loja de mingau favorita",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1208,7 +1208,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "量给的还可以",
+      "text": "A quantidade está ok",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1228,10 +1228,10 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "孩子喜欢吃这家",
+      "text": "As crianças gostam de comer isso",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
-        "南瓜粥"
+        "Mingau de abóbora"
       ]
     },
     {
@@ -1240,7 +1240,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "粥挺好吃的",
+      "text": "O mingau é delicioso",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1260,7 +1260,7 @@
       "deliveryTime": 15,
       "score": 5,
       "rateType": 0,
-      "text": "送货速度很快",
+      "text": "Entrega rápida",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1280,7 +1280,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "下雨天给快递小哥点个赞",
+      "text": "Dê um polegar para o irmão correio em dias chuvosos ",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1290,7 +1290,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "好",
+      "text": "é bom",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1300,7 +1300,7 @@
       "deliveryTime": "",
       "score": 5,
       "rateType": 0,
-      "text": "吃了还想再吃",
+      "text": "Eu quero comer de novo",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1310,7 +1310,7 @@
       "deliveryTime": "",
       "score": 3,
       "rateType": 1,
-      "text": "发票开的不对",
+      "text": "A fatura está errada",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1320,7 +1320,7 @@
       "deliveryTime": 30,
       "score": 5,
       "rateType": 0,
-      "text": "好吃",
+      "text": "bom para comer",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1330,7 +1330,7 @@
       "deliveryTime": 40,
       "score": 5,
       "rateType": 0,
-      "text": "还不错吧",
+      "text": "não é ruim, né",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1350,7 +1350,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "很喜欢的粥",
+      "text": "Mingau muito favorito",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },

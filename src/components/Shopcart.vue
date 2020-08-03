@@ -11,8 +11,8 @@
             </div>
             <div class="num" v-show="totalCount">{{totalCount}}</div>
           </div>
-          <div class="price" :class="{'highlight':totalPrice>0}">￥{{totalPrice}}</div>
-          <div class="desc">另需配送费￥{{deliveryPrice}}元</div>
+          <div class="price" :class="{'highlight':totalPrice>0}">$ {{totalPrice}}</div>
+          <div class="desc">Sujeito a cobrança adicional ${{deliveryPrice}}</div>
         </div>
         <div class="content-right" @click="pay">
           <div class="pay" :class="payStatus">
@@ -32,8 +32,8 @@
       <transition name="fold">
         <div class="shopcart-list" v-show="listShow">
           <div class="list-header">
-            <span class="title">购物车</span>
-            <span class="empty" @click="empty">清空</span>
+            <span class="title">carrinho de compras</span>
+            <span class="empty" @click="empty">Vazio</span>
           </div>
           <div class="list-content" ref="listContent">
             <ul>
@@ -58,6 +58,7 @@
 </template>
 
 <script>
+import { mapActions} from 'vuex'
 import cartcontroll from 'src/components/CartControll'
 import BScroll from 'better-scroll'
 export default {
@@ -116,13 +117,8 @@ export default {
       return count
     },
     payDesc () {
-      if (this.totalPrice === 0) {
-        return `￥${this.minPrice}元起送`
-      } else if (this.totalPrice < this.minPrice) {
-        let diff = this.minPrice - this.totalPrice
-        return `还差￥${diff}元起送`
-      } else {
-        return '去结算'
+      if (this.totalPrice !== 0) {
+        return 'Finalizar compra'
       }
     },
     payStatus () {
@@ -217,10 +213,12 @@ export default {
       this.fold = true
     },
     pay () {
-      if (this.totalPrice < this.minPrice) {
-        return
-      }
-      window.alert('即将转到支付页面')
+     var _self = this
+     this.$store.dispatch('payment/savetotalForPay', {
+            totalForPay:this.totalPrice  
+      }).then(function(){
+        _self.$router.push( '/invoice' );
+      }) 
     }
   },
   components: {

@@ -14,10 +14,12 @@ Vue.use(Vuex)
  * with the Store instance.
  */
 
+import payment from '../store/payment'
+
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
-      // example
+      payment
     },
 
     // enable strict mode (adds overhead!)
